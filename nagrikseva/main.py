@@ -122,7 +122,7 @@ async def call_incoming(request: Request):
     gather = Gather(
         input="speech",
         language="hi-IN",
-        speech_timeout="3",
+        speech_timeout="auto",
         action="/call/respond",
         method="POST",
     )
@@ -168,7 +168,7 @@ async def call_respond(request: Request):
         gather = Gather(
             input="speech",
             language="hi-IN",
-            speech_timeout="3",
+            speech_timeout="auto",
             action="/call/respond",
             method="POST",
         )
@@ -222,7 +222,7 @@ async def call_respond(request: Request):
     gather = Gather(
         input="speech",
         language="hi-IN",
-        speech_timeout="3",
+        speech_timeout="auto",
         action="/call/respond",
         method="POST",
     )
