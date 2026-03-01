@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # Gemini client (lazy init — deferred until first use so server starts even without API key)
 _gemini_client = None
 
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
 
 def _get_gemini_client() -> genai.Client:
