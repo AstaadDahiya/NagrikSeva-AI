@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+twilio
+google-genai
+pymongo[srv]
+streamlit
+plotly
+langdetect
+python-dotenv
+requests
+# deepgram-sdk  # Uncomment for production Hindi STT (Deepgram Nova-2)
